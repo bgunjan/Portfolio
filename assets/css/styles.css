@@ -183,8 +183,8 @@ img {
 }
 
 .nav__list {
-	grid-template-columns: repeat(3,1fr);
-    align-items: center;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
 	gap: 2rem;
 }
 
