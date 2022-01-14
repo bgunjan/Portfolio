@@ -46,13 +46,13 @@
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#services" class="nav__link">
-								<i class="uil uil-briefcase-alt nav__icon"></i> Services
+							<a href="#portfolio" class="nav__link">
+								<i class="uil uil-scenery nav__icon"></i> Projects
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#portfolio" class="nav__link">
-								<i class="uil uil-scenery nav__icon"></i> Portfolio
+							<a href="#testimonial" class="nav__link">
+								<i class="uil uil-briefcase-alt nav__icon"></i> Internships
 							</a>
 						</li>
 						<li class="nav__item">
@@ -94,6 +94,11 @@
 								class="home__social-icon"
 							>
 								<i class="uil uil-medal"></i>
+								<!-- <span style="width: 25px ; height:25px;"
+								class="iconify skills__icon"
+								data-icon="simple-icons:codechef"
+								style="color: white"
+							></span> -->
 							</a>
 
 							<a
@@ -161,7 +166,7 @@
 				<h2 class="section__title">About Me</h2>
 				<span class="section__subtitle">My introduction</span>
 				<div class="about__conntainer container grid">
-					<img src="assets/img/about.jpg" alt="" class="about__img" />
+					<!-- <img src="assets/img/about.jpg" alt="" class="about__img" /> -->
 					<div class="about__data">
 						<p class="about__description">
 							Undergraduate, Hard core Engineer, have interests in problem solving 
@@ -395,14 +400,14 @@
 								</div>
 
 								<div>
-									<h3 class="qualification__title">Higher Sceondary School</h3>
+									<h3 class="qualification__title">Higher Secondary School</h3>
 									<span class="qualification__subtitle">Dav Model School Durgapur</span>
 
 									<div class="qualification__calendar">
 										<i class="uil uil-calendar-alt"></i>
 										2016 - 2018
 									</div>
-									<div class="qualification__calendar">84.17</div>
+									<div class="qualification__calendar">84.17%</div>
 								</div>
 							</div>
 
@@ -414,7 +419,7 @@
 
 									<div class="qualification__calendar">
 										<i class="uil uil-calendar-alt"></i>
-										2016 - 2018
+										2015 - 2016
 									</div>
 									<div class="qualification__calendar">90%</div>
 								</div>
@@ -516,13 +521,13 @@
 			</section>
 
 			<!--==================== SERVICES ====================-->
-			<section class="services section" id="services">
+			<!-- <section class="services section" id="services">
 				<h2 class="section__title">Services</h2>
 				<span class="section__subtitle">What I offer</span>
 
-				<div class="services__container container grid">
+				<div class="services__container container grid"> -->
 					<!--===================== SERVICES 1 ====================-->
-					<div class="services__content">
+					<!-- <div class="services__content">
 						<div>
 							<i class="uil uil-arrow services__icon"></i>
 							<h3 class="services__title">
@@ -564,10 +569,10 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 					<!--===================== SERVICES 2 ====================-->
-					<div class="services__content">
+					<!-- <div class="services__content">
 						<div>
 							<i class="uil uil-web-grid services__icon"></i>
 							<h3 class="services__title">
@@ -609,10 +614,10 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 					<!--===================== SERVICES 3 ====================-->
-					<div class="services__content">
+					<!-- <div class="services__content">
 						<div>
 							<i class="uil uil-pen services__icon"></i>
 							<h3 class="services__title">
@@ -651,11 +656,11 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 			<!--==================== PORTFOLIO ====================-->
 			<section class="portfolio section" id="portfolio">
-				<h2 class="section__title">Portfolio</h2>
+				<h2 class="section__title">Projects</h2>
 				<span class="section__subtitle">Most Recent Work</span>
 
 				<div class="portfolio__container container swiper-container">
@@ -663,15 +668,16 @@
 						<!--======================== PORTFOLIO 1 =============-->
 						<div class="portfolio__content grid swiper-slide">
 							<img
-								src="assets/img/portfolio1.jpg"
+								src="assets/img/portfolio_img.png"
 								alt=""
 								class="portfolio__img"
 							/>
 
 							<div class="portfolio__data">
-								<h3 class="portfolio__title">Modern Website</h3>
+								<h3 class="portfolio__title">Portfolio Website</h3>
 								<p class="portfolio__description">
-									This is test description(1) right now.
+									Protfolio website contains information about me (projects done, internships done,
+									education, and my social handles).
 								</p>
 								<a
 									href="#"
@@ -686,21 +692,23 @@
 						<!--======================== PORTFOLIO 2 =============-->
 						<div class="portfolio__content grid swiper-slide">
 							<img
-								src="assets/img/portfolio2.jpg"
+								src="assets/img/covid-19.png"
 								alt=""
 								class="portfolio__img"
 							/>
 
 							<div class="portfolio__data">
-								<h3 class="portfolio__title">Modern Website(2)</h3>
+								<h3 class="portfolio__title">Covid-19 Analyser</h3>
 								<p class="portfolio__description">
-									This is test description(2) right now.
+									This project fetches all the statistical data related the 
+									the covid-19 diease and shows them in a tabular and graphical 
+									form (Done using <b>React</b>)
 								</p>
 								<a
-									href="#"
+									href="https://github.com/bgunjan/Covid-19-Analyser" target="_blank"
 									class="button button--flex button--small portfolio__button"
 								>
-									Demo
+									Github repo link 
 									<i class="uil uil-arrow-right button__icon"></i>
 								</a>
 							</div>
@@ -709,18 +717,19 @@
 						<!--======================== PORTFOLIO 3 =============-->
 						<div class="portfolio__content grid swiper-slide">
 							<img
-								src="assets/img/portfolio3.jpg"
+								src="assets/img/todo.png"
 								alt=""
 								class="portfolio__img"
 							/>
 
 							<div class="portfolio__data">
-								<h3 class="portfolio__title">Modern Website(3)</h3>
+								<h3 class="portfolio__title">Todo List</h3>
 								<p class="portfolio__description">
-									This is test description(3) right now.
+									It helps to keep track of the tasks, has add, delete, sort functionalities.
+									Made by using <b>HTML</b>, <b>CSS</b>, <b>JS</b>.
 								</p>
 								<a
-									href="#"
+									href="https://bgunjan.github.io/Todo-List/" target="_blank"
 									class="button button--flex button--small portfolio__button"
 								>
 									Demo
@@ -747,9 +756,9 @@
 				<div class="project__bg">
 					<div class="project__container container grid">
 						<div class="project__data">
-							<h2 class="project__title">You have a new project</h2>
+							<h2 class="project__title">Any ideas?</h2>
 							<p class="project__description">
-								Contact me now and get a 30% discount on your new project!
+								If you have any improvement ideas regarding the site you can contact me.
 							</p>
 							<a href="#contact" class="button button--flex button--white">
 								Contact Me
@@ -767,8 +776,53 @@
 			</section>
 
 			<!--==================== TESTIMONIAL ====================-->
-			<section class="testimonial section">
-				<!--=======This feature is skipped for now========-->
+			<section class="testimonial section" id="testimonial">
+				<h2 class="section__title">Internships</h2>
+				<span class="section__subtitle">I have done 2 internships</span>
+				
+				<div class="testimonial__container container swiper-container">
+					<div class="swiper-wrapper">
+						<!--==================== Internship 1 ====================-->
+						<div class="testimonial__content swiper-slide">
+							<div class="testimonial__data">
+								<div class="testimonial__header">
+									<img src="assets/img/cerebry2_clear.png" alt="" class="testimonial__img">
+
+									<div>
+										<h3 class="testimonial__name">Cerebry.co</h3>
+										<span class="testimonial__client">Front-end Web Developer</span>
+									</div>
+								</div>
+
+							</div>
+							<p class="testimonial__description">
+								Worked as a front-end developer , mainly worked on HTML, CSS and Latex.
+							</p>
+						</div>
+
+						<!--==================== Internship 2 ====================-->
+						<div class="testimonial__content swiper-slide">
+							<div class="testimonial__data">
+								<div class="testimonial__header">
+									<img src="assets/img/AttainU.jpg" alt="" class="testimonial__img">
+
+									<div>
+										<h3 class="testimonial__name">AttainU</h3>
+										<span class="testimonial__client">Software Instructor</span>
+									</div>
+								</div>
+
+							</div>
+							<p class="testimonial__description">
+								Work as an intructor and take interviews of the candidates, mainly
+								ask them DSA(data structure and algorithm) questions
+							</p>
+						</div>
+					</div>
+
+					<div class="swiper-pagination swiper-pagination-testimonial	"></div>
+				</div>
+
 			</section>
 
 			<!--==================== CONTACT ME ====================-->
@@ -877,12 +931,12 @@
 					</div>
 
 					<ul class="footer__links">
-						<li>
+						<!-- <li>
 							<a href="#services" class="footer__link">Services</a>
-						</li>
+						</li> -->
 
 						<li>
-							<a href="#portfolio" class="footer__link">Portfolio</a>
+							<a href="#portfolio" class="footer__link">Projects</a>
 						</li>
 
 						<li>
